@@ -1,5 +1,6 @@
 import {NextPage} from 'next';
 import Nav from "../components/nav";
+import Button from "./Taa";
 const IndexPage: NextPage = () => {
   return (
     <div>
@@ -9,6 +10,7 @@ const IndexPage: NextPage = () => {
           Next.js + Tailwind CSS 2.0
         </h1>
       </div>
+      <Button />
     </div>
   );
 }
